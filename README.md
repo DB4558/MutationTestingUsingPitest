@@ -52,7 +52,7 @@ The testing framework **PITEST** is used to perform mutation analysis on these a
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-repo-name.git
+   git clone https://github.com/MutationTestingUsingPitest.git
    cd your-repo-name
 2. **Install Dependencies Ensure Maven is installed, then run:**
    ```bash
