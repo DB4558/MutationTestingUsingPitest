@@ -1,9 +1,13 @@
 
 
 # Mutation Testing on Data Structure Algorithms using PITEST
-##Contributors
-[![All Contributors](https://github.com/ketki-kerkar)](#contributors)
+## Contributors
 
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+
+Thanks to the following people for their contributions:
+
+- [Ketki Kerkar](https://github.com/ketki-kerkar)
 
 This project demonstrates **Mutation Testing** on various **Data Structure Algorithms** using [PITEST](https://pitest.org/), a leading mutation testing framework for Java. The algorithms are tested with **JUnit** test cases to ensure code reliability and mutation coverage.
 
@@ -66,15 +70,11 @@ The testing framework **PITEST** is used to perform mutation analysis on these a
         </execution>
     </executions>
 </plugin>
-## Mutation Testing
-mvn org.pitest:pitest-maven:mutationCoverage
 
 
-## Running Tests
-
-   ** Run the JUnit tests to ensure all algorithms work as expected:**
+  **Mutation Testing**
   ```bash
-     mvn test
+  mvn org.pitest:pitest-maven:mutationCoverage
 
 
     ```
